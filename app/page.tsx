@@ -29,7 +29,7 @@ export default function Showcase() {
       image: '/placeholder.svg?height=200&width=300',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
       github: 'https://github.com/AdamLiWroteThis/button-component',
-      demo: '#'
+      demo: 'https://adamliwrotethis.github.io/button-component/'
     },
     {
       title: 'Profile Card Component',
