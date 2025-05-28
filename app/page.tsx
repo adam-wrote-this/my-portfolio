@@ -23,40 +23,40 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Button Component',
       description:
-        'A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.',
+        'Build a button component capable of showing different states, sizes and icon configurations.',
       image: '/placeholder.svg?height=200&width=300',
-      tags: ['Next.js', 'TypeScript', 'Stripe', 'Prisma'],
-      github: '#',
+      tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
+      github: 'https://github.com/AdamLiWroteThis/button-component',
       demo: '#'
     },
     {
-      title: 'Task Management App',
+      title: 'Profile Card Component',
       description:
-        'Collaborative task management tool with real-time updates, team collaboration, and progress tracking.',
-      image: '/placeholder.svg?height=200&width=300',
-      tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-      github: '#',
-      demo: '#'
+        "Build a simple profile card featuring a user's basic information and links to their social media profiles.",
+      image: '/profile-card.webp',
+      tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
+      github: 'https://github.com/AdamLiWroteThis/profile-card',
+      demo: 'https://adamliwrotethis.github.io/profile-card/'
     },
     {
-      title: 'AI Content Generator',
+      title: 'Blog Card Component',
       description:
-        'AI-powered content generation tool for blogs, social media, and marketing copy using OpenAI API.',
-      image: '/placeholder.svg?height=200&width=300',
-      tags: ['Next.js', 'OpenAI', 'TailwindCSS', 'Vercel'],
-      github: '#',
-      demo: '#'
+        'Build a simple blog card displaying details of a blog article.',
+      image: '/blog-card.webp',
+      tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
+      github: 'https://github.com/AdamLiWroteThis/blog-card',
+      demo: 'https://adamliwrotethis.github.io/blog-card/'
     },
     {
-      title: 'Weather Dashboard',
+      title: 'Testimonial Card Component',
       description:
-        'Beautiful weather dashboard with forecasts, maps, and location-based weather alerts.',
-      image: '/placeholder.svg?height=200&width=300',
-      tags: ['Vue.js', 'Weather API', 'Chart.js', 'PWA'],
-      github: '#',
-      demo: '#'
+        'Build a simple user testimonial card with key testimonial elements.',
+      image: '/testimonial-card.webp',
+      tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
+      github: 'https://github.com/AdamLiWroteThis/testimonial-card',
+      demo: 'https://adamliwrotethis.github.io/testimonial-card/'
     }
   ]
 
@@ -132,10 +132,16 @@ export default function Showcase() {
           </div>
           <div className='flex flex-1 items-center justify-between space-x-2 md:justify-end'>
             <div className='w-full flex-1 md:w-auto md:flex-none'>
-              <Button variant='outline' size='sm'>
-                <Github className='mr-2 h-4 w-4' />
-                <span>GitHub</span>
-              </Button>
+              <a
+                href='https://github.com/AdamLiWroteThis'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Button variant='outline' size='sm'>
+                  <Github className='mr-2 h-4 w-4' />
+                  <span>GitHub</span>
+                </Button>
+              </a>
             </div>
           </div>
         </nav>
@@ -145,21 +151,25 @@ export default function Showcase() {
         <section className='container space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32'>
           <div className='mx-auto flex flex-col items-center gap-2 text-center'>
             <h1 className='text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]'>
-              Building Digital Experiences
+              Hi!, I'm Adam Li
             </h1>
             <p className='max-w-[750px] text-lg text-muted-foreground sm:text-xl'>
-              Full-stack developer passionate about creating beautiful,
+              A full-stack developer passionate about creating beautiful,
               functional, and user-centered digital experiences.
             </p>
             <div className='flex gap-4 mt-6'>
-              <Button size='lg'>
-                View Projects
-                <ArrowRight className='ml-2 h-4 w-4' />
-              </Button>
-              <Button variant='outline' size='lg'>
-                <Mail className='mr-2 h-4 w-4' />
-                Get in Touch
-              </Button>
+              <a href='#projects'>
+                <Button size='lg'>
+                  View Projects
+                  <ArrowRight className='ml-2 h-4 w-4' />
+                </Button>
+              </a>
+              <a href='mailto:adam.works.for.x@gmail.com'>
+                <Button variant='outline' size='lg'>
+                  <Mail className='mr-2 h-4 w-4' />
+                  Get in Touch
+                </Button>
+              </a>
             </div>
           </div>
         </section>
@@ -171,7 +181,7 @@ export default function Showcase() {
               About Me
             </h2>
             <p className='max-w-[700px] text-lg text-muted-foreground'>
-              I'm a passionate full-stack developer with 5+ years of experience
+              I'm a passionate full-stack developer with 10+ years of experience
               creating web applications. I love turning complex problems into
               simple, beautiful, and intuitive solutions. When I'm not coding,
               you'll find me exploring new technologies.
@@ -220,13 +230,21 @@ export default function Showcase() {
                   </div>
                   <div className='flex gap-2'>
                     <Button variant='outline' size='sm' asChild>
-                      <a href={project.github}>
+                      <a
+                        href={project.github}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <Github className='mr-2 h-4 w-4' />
                         Code
                       </a>
                     </Button>
                     <Button size='sm' asChild>
-                      <a href={project.demo}>
+                      <a
+                        href={project.demo}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <ExternalLink className='mr-2 h-4 w-4' />
                         Demo
                       </a>
@@ -281,13 +299,21 @@ export default function Showcase() {
             </p>
             <div className='flex gap-4 mt-6'>
               <Button size='lg' asChild>
-                <a href='mailto:hello@example.com'>
+                <a
+                  href='mailto:adam.works.for.x@gmail.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <Mail className='mr-2 h-4 w-4' />
                   Email Me
                 </a>
               </Button>
               <Button variant='outline' size='lg' asChild>
-                <a href='#'>
+                <a
+                  href='https://www.linkedin.com/in/jun-li-409b13b9/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <Linkedin className='mr-2 h-4 w-4' />
                   LinkedIn
                 </a>
@@ -300,22 +326,25 @@ export default function Showcase() {
         <footer className='border-t py-6 md:py-0'>
           <div className='container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row'>
             <p className='text-center text-sm leading-loose text-muted-foreground md:text-left'>
-              Built with Next.js and shadcn/ui. © 2024 All rights reserved.
+              Built with Next.js and shadcn/ui. © 2025 All rights reserved.
             </p>
             <div className='flex items-center space-x-4'>
               <Button variant='ghost' size='sm' asChild>
-                <a href='#'>
+                <a
+                  href='https://github.com/AdamLiWroteThis'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <Github className='h-4 w-4' />
                 </a>
               </Button>
               <Button variant='ghost' size='sm' asChild>
-                <a href='#'>
+                <a
+                  href='https://www.linkedin.com/in/jun-li-409b13b9/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <Linkedin className='h-4 w-4' />
-                </a>
-              </Button>
-              <Button variant='ghost' size='sm' asChild>
-                <a href='#'>
-                  <Twitter className='h-4 w-4' />
                 </a>
               </Button>
             </div>
