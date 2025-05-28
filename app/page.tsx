@@ -26,7 +26,7 @@ export default function Showcase() {
       title: 'Button Component',
       description:
         'Build a button component capable of showing different states, sizes and icon configurations.',
-      image: '/placeholder.svg?height=200&width=300',
+      image: '/button-component.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
       github: 'https://github.com/AdamLiWroteThis/button-component',
       demo: 'https://adamliwrotethis.github.io/button-component/'
