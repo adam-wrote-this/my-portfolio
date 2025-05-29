@@ -23,6 +23,15 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
+      title: 'Cookie Consent Component',
+      description:
+        'Build a responsive cookie banner and preferences dialog backed by a cookie consent management system.',
+      image: '/cookie-consent.webp',
+      tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
+      github: 'https://github.com/AdamLiWroteThis/cookie-consent',
+      demo: 'https://cookie-consent-one.vercel.app/'
+    },
+    {
       title: 'Button Component',
       description:
         'Build a button component capable of showing different states, sizes and icon configurations.',
