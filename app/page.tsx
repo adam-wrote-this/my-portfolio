@@ -23,12 +23,12 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
-      title: 'Cookie Consent Component',
+      title: 'Cookie Consent Banner',
       description:
         'Build a responsive cookie banner and preferences dialog backed by a cookie consent management system.',
       image: '/cookie-consent.webp',
       tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
-      github: 'https://github.com/AdamLiWroteThis/cookie-consent',
+      github: 'https://github.com/adam-wrote-this/cookie-consent',
       demo: 'https://cookie-consent-one.vercel.app/'
     },
     {
@@ -37,7 +37,7 @@ export default function Showcase() {
         'Build a button component capable of showing different states, sizes and icon configurations.',
       image: '/button-component.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
-      github: 'https://github.com/AdamLiWroteThis/button-component',
+      github: 'https://github.com/adam-wrote-this/button-component',
       demo: 'https://adamliwrotethis.github.io/button-component/'
     },
     {
@@ -46,7 +46,7 @@ export default function Showcase() {
         "Build a simple profile card featuring a user's basic information and links to their social media profiles.",
       image: '/profile-card.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
-      github: 'https://github.com/AdamLiWroteThis/profile-card',
+      github: 'https://github.com/adam-wrote-this/profile-card',
       demo: 'https://adamliwrotethis.github.io/profile-card/'
     },
     {
@@ -55,7 +55,7 @@ export default function Showcase() {
         'Build a simple blog card displaying details of a blog article.',
       image: '/blog-card.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
-      github: 'https://github.com/AdamLiWroteThis/blog-card',
+      github: 'https://github.com/adam-wrote-this/blog-card',
       demo: 'https://adamliwrotethis.github.io/blog-card/'
     },
     {
@@ -64,7 +64,7 @@ export default function Showcase() {
         'Build a simple user testimonial card with key testimonial elements.',
       image: '/testimonial-card.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
-      github: 'https://github.com/AdamLiWroteThis/testimonial-card',
+      github: 'https://github.com/adam-wrote-this/testimonial-card',
       demo: 'https://adamliwrotethis.github.io/testimonial-card/'
     }
   ]
@@ -142,7 +142,7 @@ export default function Showcase() {
           <div className='flex flex-1 items-center justify-between space-x-2 md:justify-end'>
             <div className='w-full flex-1 md:w-auto md:flex-none'>
               <a
-                href='https://github.com/AdamLiWroteThis'
+                href='https://github.com/adam-wrote-this'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -340,7 +340,7 @@ export default function Showcase() {
             <div className='flex items-center space-x-4'>
               <Button variant='ghost' size='sm' asChild>
                 <a
-                  href='https://github.com/AdamLiWroteThis'
+                  href='https://github.com/adam-wrote-this'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
