@@ -23,6 +23,15 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
+      title: 'Product Details Section',
+      description:
+        'Build a responsive and dynamic product details section for displaying product information',
+      image: '/product-details-section.webp',
+      tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
+      github: 'https://github.com/adam-wrote-this/product-details-section',
+      demo: 'https://product-details-section-lyart.vercel.app/'
+    },
+    {
       title: 'Navbar (E-commerce)',
       description:
         'Build a minimal, responsive navigation bar seen on typical e-commerce websites',
