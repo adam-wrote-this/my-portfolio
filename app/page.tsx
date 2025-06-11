@@ -23,6 +23,15 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
+      title: 'Navbar (E-commerce)',
+      description:
+        'Build a minimal, responsive navigation bar seen on typical e-commerce websites',
+      image: '/navbar-e-commerce.webp',
+      tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
+      github: 'https://github.com/adam-wrote-this/e-commerce-navigation-bar',
+      demo: 'https://e-commerce-navigation-bar.vercel.app/'
+    },
+    {
       title: 'Cookie Consent Banner',
       description:
         'Build a responsive cookie banner and preferences dialog backed by a cookie consent management system.',
