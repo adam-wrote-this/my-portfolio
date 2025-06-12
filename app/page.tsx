@@ -56,7 +56,7 @@ export default function Showcase() {
       image: '/button-component.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
       github: 'https://github.com/adam-wrote-this/button-component',
-      demo: 'https://adamliwrotethis.github.io/button-component/'
+      demo: 'https://adam-wrote-this.github.io/button-component/'
     },
     {
       title: 'Profile Card Component',
@@ -65,7 +65,7 @@ export default function Showcase() {
       image: '/profile-card.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
       github: 'https://github.com/adam-wrote-this/profile-card',
-      demo: 'https://adamliwrotethis.github.io/profile-card/'
+      demo: 'https://adam-wrote-this.github.io/profile-card/'
     },
     {
       title: 'Blog Card Component',
@@ -74,7 +74,7 @@ export default function Showcase() {
       image: '/blog-card.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
       github: 'https://github.com/adam-wrote-this/blog-card',
-      demo: 'https://adamliwrotethis.github.io/blog-card/'
+      demo: 'https://adam-wrote-this.github.io/blog-card/'
     },
     {
       title: 'Testimonial Card Component',
@@ -83,7 +83,7 @@ export default function Showcase() {
       image: '/testimonial-card.webp',
       tags: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS'],
       github: 'https://github.com/adam-wrote-this/testimonial-card',
-      demo: 'https://adamliwrotethis.github.io/testimonial-card/'
+      demo: 'https://adam-wrote-this.github.io/testimonial-card/'
     }
   ]
 
