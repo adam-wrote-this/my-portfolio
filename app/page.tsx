@@ -23,14 +23,13 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
-      title: 'Product Specifications Section',
+      title: 'Product Grid Section',
       description:
-        'Build a responsive tab-structured product specifications section',
-      image: 'product-specifications-section.webp',
+        'Build a responsive and modular section to display specified product listings',
+      image: 'product-grid-section.webp',
       tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
-      github:
-        'https://github.com/adam-wrote-this/product-specifications-section',
-      demo: 'https://product-specifications-section.vercel.app/'
+      github: 'https://github.com/adam-wrote-this/product-grid-section',
+      demo: 'https://product-grid-section-three.vercel.app/'
     },
     {
       title: 'Product Reviews',
