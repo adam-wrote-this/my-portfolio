@@ -23,6 +23,15 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
+      title: 'Footer',
+      description:
+        'Build a multi-column footer featuring navigation links for the website, social media channels, and newsletter signup section',
+      image: 'product-grid-section.webp',
+      tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
+      github: 'https://github.com/adam-wrote-this/footer',
+      demo: 'https://footer-rho-seven.vercel.app/'
+    },
+    {
       title: 'Product Grid Section',
       description:
         'Build a responsive and modular section to display specified product listings',
