@@ -23,6 +23,15 @@ import Image from 'next/image'
 export default function Showcase() {
   const projects = [
     {
+      title: 'E-commerce Website',
+      description:
+        'Build a fully functional e-commerce website for a mock e-commerce platform',
+      image: 'product-grid-section.webp',
+      tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
+      github: 'https://github.com/adam-wrote-this/e-commerce-website',
+      demo: 'https://e-commerce-website-lyart-six.vercel.app/'
+    },
+    {
       title: 'Footer',
       description:
         'Build a multi-column footer featuring navigation links for the website, social media channels, and newsletter signup section',
