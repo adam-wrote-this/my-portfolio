@@ -35,7 +35,7 @@ export default function Showcase() {
       title: 'Footer',
       description:
         'Build a multi-column footer featuring navigation links for the website, social media channels, and newsletter signup section',
-      image: 'product-grid-section.webp',
+      image: 'footer.webp',
       tags: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Tailwind CSS'],
       github: 'https://github.com/adam-wrote-this/footer',
       demo: 'https://footer-rho-seven.vercel.app/'
